@@ -23,7 +23,7 @@ namespace WorkingWithDB
         private async void Form1_Load(object sender, EventArgs e)
         {
             //Change this path "C:\Users\HOME\Desktop\c#\WorkingWithDB\WorkingWithDB\Database.mdf" for your own computer
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\HOME\Desktop\c#\WorkingWithDB\WorkingWithDB\Database.mdf;Integrated Security=True";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\коды\C#\Working_with_db\WorkingWithDB\Database.mdf;Integrated Security=True";
 
             sqlConnection = new SqlConnection(connectionString);
 
